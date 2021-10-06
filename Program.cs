@@ -1,17 +1,29 @@
 ﻿using System;
-
-namespace NebulaQuestion2
+public class Animal
 {
-    class Program
+    public void eat() { Console.WriteLine("Yummy"); }
+
+}
+
+
+public class Horse : Animal
+{
+    public void MakeNoise() { Console.WriteLine("Neigh"); }
+}
+
+
+
+public class Sheep : Horse
+{
+    public void Filled() { Console.WriteLine("Baaah"); }
+}
+class TestInheritance2
+{
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var animal = new Animal();
-
-            var horse = (Animal)animal;
-
-            var sheep = (Animal)animal;
-
-        }
+        Sheep d1 = new Sheep();
+        d1.eat();
+        d1.MakeNoise();
+        d1.Filled();
     }
 }
