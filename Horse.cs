@@ -9,13 +9,13 @@ namespace NebulaQuestion2
     public class Horse : Animal
     {
         //string Eat()
-        //{
+        // {
         //    return "Yummy";
         //}
 
-        string MakeNoise()
-        {
-            return "Neigh";
-        }
+        //string MakeNoise()
+        //{
+        //    return "Neigh";
+        //}
     }
 }

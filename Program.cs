@@ -8,9 +8,9 @@ namespace NebulaQuestion2
         {
             var animal = new Animal();
 
-            var Horse = new Horse();
+            var horse = new Horse();
 
-            var Sheep = new Sheep();
+            var sheep = new Sheep();
 
         }
     }

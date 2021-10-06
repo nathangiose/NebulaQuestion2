@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace NebulaQuestion2
 {
-    public class Sheep:Animal
+    public class Sheep
     {
         //string Eat()
         //{
         //    return "Yummy";
         //}
 
-        string MakeNoise()
-        {
-            return "Baaah";
-        }
+        //string MakeNoise()
+        //{
+        //    return "Baaah";
+        //}
     }
 }
