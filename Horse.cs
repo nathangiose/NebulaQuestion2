@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NebulaQuestion2
 {
-    class Horse : Animal
+    public class Horse : Animal
     {
         //string Eat()
         //{

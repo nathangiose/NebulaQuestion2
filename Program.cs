@@ -6,9 +6,11 @@ namespace NebulaQuestion2
     {
         static void Main(string[] args)
         {
-            Animal animal = new Animal();
+            var animal = new Animal();
 
-            Animal Horse = (Animal); 
+            var Horse = new Horse();
+
+            var Sheep = new Sheep();
 
         }
     }
