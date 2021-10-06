@@ -8,6 +8,10 @@ namespace NebulaQuestion2
 {
     public class Horse : Animal
     {
+        public Horse(string eat)
+        {
+
+        }
         //string Eat()
         // {
         //    return "Yummy";
